@@ -14,9 +14,11 @@ The application can be run with the following steps:
         python3 -m venv venv
        
  2. Activate the virtual environment
+ 
      On mac:
      
         source venv/bin/activate
+        
      On windows:
      
         venv\Scripts\activate.bat
