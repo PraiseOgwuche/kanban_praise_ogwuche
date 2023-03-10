@@ -203,7 +203,7 @@
   </noscript>
   <div id="kanban" v-cloak>
     <header>
-      <h1>Praise's Kanban board</h1>
+      <h1>Praise's Kanban ^^</h1>
       <form v-on:submit.prevent="create_card" action="card" method="POST">
         <input title="create card" src="templates/plus_icon.svg" type="image" value="Create card" />
         <label>text: <input name="text" type="text" required="required" /></label>
@@ -232,7 +232,8 @@
             </a>
             <span class="card_id" v-show="show_card_ids"><small>#{{ card.id }}</small></span>
             <p class="card-text">{{ card.text }}</p>
-            <p class="card-last-updated"><small v-show="show_card_timestamps"> Update {{ Math.floor((Date.now() - Date.parse(card.modified)) / (1000*60*60*24)) }} day(s) ago</small></p>
+            <p class="card-last-updated"><small v-show="show_card_timestamps"> 
+              Update {{ Math.floor((Date.now() - Date.parse(card.modified)) / (1000*60*60*24)) }} day(s) ago</small></p>
           </li>
         </transition-group>
       </section>
