@@ -33,3 +33,6 @@ The application can be run with the following steps:
 
  5. Finally connect to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in a
     web browser.
+    
+    
+App description and walthrough of functionalities can be found here: https://www.loom.com/share/be1e96fd05f043838834eae6c8d8ba62 
