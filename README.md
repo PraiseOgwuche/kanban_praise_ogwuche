@@ -35,4 +35,4 @@ The application can be run with the following steps:
     web browser.
     
     
-App description and walthrough of functionalities can be found here: https://www.loom.com/share/be1e96fd05f043838834eae6c8d8ba62 
+**App description and walkthrough of functionality can be found here**: https://www.loom.com/share/be1e96fd05f043838834eae6c8d8ba62 
