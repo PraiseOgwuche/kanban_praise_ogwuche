@@ -18,7 +18,7 @@ login_manager = LoginManager()
 def setup_app(kanban_db):
     """Create a new instance of the flask app"""
     kanban_app = Flask(__name__)
-    bcrypt = Bcrypt(kanban_app)
+    #bcrypt = Bcrypt(kanban_app)
     kanban_app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///kanban.db'
     kanban_app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     kanban_app.config['SECRET_KEY'] = 'secret'
