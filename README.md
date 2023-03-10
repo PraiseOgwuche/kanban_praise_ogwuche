@@ -10,12 +10,15 @@ Running locally
 The application can be run with the following steps:
 
  1. Create a virtual environment
+ 
         python3 -m venv venv
        
  2. Activate the virtual environment
      On mac:
+     
         source venv/bin/activate
      On windows:
+     
         venv\Scripts\activate.bat
         
  3. Install required python packages:
